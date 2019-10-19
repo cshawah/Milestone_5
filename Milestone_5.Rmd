@@ -39,9 +39,25 @@ Colonial_History <- read_csv("raw_data/ICOW_Colonial_History.csv") %>%
   select(state, name, col_ruler, ind_from, ind_date)
 
 ```
+<br> 
 
-```{r}
+#The Effect of a Country's History on its Present
 
-```
+##About
+
+###Sources:
+To look at the colonial history and independence years of world nations, I used the [Colonial History Data Set](https://www.paulhensel.org/icowcol.html) from the Issue Correlates of War Project (ICOW) led by Paul R. Hensel at the University of North Texas. This data set contains the year and month that nations gained their independence, as well as the government/nation from which they gained their independence.
+
+To investigate whether/how these colonial histories have impacts today, I chose three indicators of different kinds of "success" of a nation.
+
+1) Gross Domestic Product, per capita in PPP in the year 2018. I obtained this data from the [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD).
+2) Child Mortality Rate, under 5 y/o deaths per 1000 live births in the year 2018. I obtained this data from the [World Bank](https://data.worldbank.org/indicator/SH.DYN.MORT).
+3) Human Development Index (HDI), a metric which incorporates life expectancy, education, and standard of living, in the year 2018. This dataset is created and accessed from the [United Nations Development Programme](http://hdr.undp.org/en/content/human-development-index-hdi).
+
+###About Me:
+My name is Chloe Shawah, and I member of Harvard College's Class of 2022. I am concentrating in Applied Mathematics with an application to Government, and I am pursuing a secondary field in Ethnicity, Migration, and Rights.
+
+email: chloeshawah@college.harvard.edu
+
 
 
